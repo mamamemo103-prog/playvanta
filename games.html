@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="assets/favi.ico">
+  <meta name="description" content="Playvanta social casino library — free to use. Virtual coins only, not real money. March 2026.">
+  <title>Games — Playvanta Free Social Casino</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="pv-body">
+  <header class="pv-header">
+    <div class="pv-shell pv-header-inner">
+      <a href="index.html" class="pv-brand"><span class="pv-brand__mark" aria-hidden="true"></span>Playvanta</a>
+      <button type="button" class="pv-nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="pv-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="pv-nav" id="pv-nav">
+        <a href="index.html">Home</a>
+        <a href="games.html" class="is-active">Games</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="pv-page">
+    <div class="pv-shell">
+      <p class="pv-hero__eyebrow" style="margin:0 0 0.35rem">Library</p>
+      <h1>Every title, one tap away</h1>
+      <p class="pv-meta">Free <strong>social casino</strong> games—<strong>free to use</strong>, not real money. Filter by lane, hover a tile, then launch.</p>
+
+      <div class="pv-toolbar" role="toolbar" aria-label="Game filters">
+        <button type="button" class="pv-filter" data-pv-filter="all" aria-pressed="true">All</button>
+        <button type="button" class="pv-filter" data-pv-filter="slots" aria-pressed="false">Slots</button>
+        <button type="button" class="pv-filter" data-pv-filter="roulette" aria-pressed="false">Roulette</button>
+        <button type="button" class="pv-filter" data-pv-filter="blackjack" aria-pressed="false">Blackjack</button>
+        <button type="button" class="pv-filter" data-pv-filter="poker" aria-pressed="false">Poker</button>
+        <button type="button" class="pv-filter" data-pv-filter="wheel" aria-pressed="false">Wheel</button>
+        <button type="button" class="pv-filter" data-pv-filter="dice" aria-pressed="false">Dice</button>
+      </div>
+
+      <div class="pv-games-masonry" id="pv-game-grid">
+        <a href="games/slot-machine/index.html" class="pv-game" data-category="slots">
+          <div class="pv-game__tilt">
+            <div class="pv-game__media">
+              <img src="./assets/game_card_slot.webp" alt="" width="640" height="400" loading="lazy" decoding="async">
+              <div class="pv-game__shine" aria-hidden="true"></div>
+            </div>
+            <div class="pv-game__hud">
+              <span class="pv-game__label">Free play</span>
+              <h3 class="pv-game__title">Neon Slots Rush Deluxe</h3>
+              <span class="pv-game__cta">Play Free</span>
+            </div>
+          </div>
+        </a>
+        <a href="games/roulette/index.html" class="pv-game" data-category="roulette">
+          <div class="pv-game__tilt">
+            <div class="pv-game__media">
+              <img src="./assets/roulette.webp" alt="" width="640" height="400" loading="lazy" decoding="async">
+              <div class="pv-game__shine" aria-hidden="true"></div>
+            </div>
+            <div class="pv-game__hud">
+              <span class="pv-game__label">Free play</span>
+              <h3 class="pv-game__title">Mega Roulette Spin X</h3>
+              <span class="pv-game__cta">Play Free</span>
+            </div>
+          </div>
+        </a>
+        <a href="games/lucky-flip-lounge/index.html" class="pv-game" data-category="slots">
+          <div class="pv-game__tilt">
+            <div class="pv-game__media">
+              <img src="./assets/dice.webp" alt="" width="640" height="400" loading="lazy" decoding="async">
+              <div class="pv-game__shine" aria-hidden="true"></div>
+            </div>
+            <div class="pv-game__hud">
+              <span class="pv-game__label">Free play</span>
+              <h3 class="pv-game__title">Royal Slots Vault</h3>
+              <span class="pv-game__cta">Play Free</span>
+            </div>
+          </div>
+        </a>
+        <a href="games/hi-lo-lounge/index.html" class="pv-game" data-category="wheel">
+          <div class="pv-game__tilt">
+            <div class="pv-game__media">
+              <img src="./assets/playing-card.webp" alt="" width="640" height="400" loading="lazy" decoding="async">
+              <div class="pv-game__shine" aria-hidden="true"></div>
+            </div>
+            <div class="pv-game__hud">
+              <span class="pv-game__label">Free play</span>
+              <h3 class="pv-game__title">Golden Wheel Roulette Max</h3>
+              <span class="pv-game__cta">Play Free</span>
+            </div>
+          </div>
+        </a>
+        <a href="games/blackjack/index.html" class="pv-game" data-category="blackjack">
+          <div class="pv-game__tilt">
+            <div class="pv-game__media">
+              <img src="./assets/poker.webp" alt="" width="640" height="400" loading="lazy" decoding="async">
+              <div class="pv-game__shine" aria-hidden="true"></div>
+            </div>
+            <div class="pv-game__hud">
+              <span class="pv-game__label">Free play</span>
+              <h3 class="pv-game__title">Lucky Blackjack Pro</h3>
+              <span class="pv-game__cta">Play Free</span>
+            </div>
+          </div>
+        </a>
+        <a href="games/craps-game/index.html" class="pv-game" data-category="dice">
+          <div class="pv-game__tilt">
+            <div class="pv-game__media">
+              <img src="./assets/baccarat.webp" alt="" width="640" height="400" loading="lazy" decoding="async">
+              <div class="pv-game__shine" aria-hidden="true"></div>
+            </div>
+            <div class="pv-game__hud">
+              <span class="pv-game__label">Free play</span>
+              <h3 class="pv-game__title">Prism Dice Stack</h3>
+              <span class="pv-game__cta">Play Free</span>
+            </div>
+          </div>
+        </a>
+        <a href="games/Texas-Holdem/index.html" class="pv-game" data-category="poker">
+          <div class="pv-game__tilt">
+            <div class="pv-game__media">
+              <img src="./assets/game_back.webp" alt="" width="640" height="400" loading="lazy" decoding="async">
+              <div class="pv-game__shine" aria-hidden="true"></div>
+            </div>
+            <div class="pv-game__hud">
+              <span class="pv-game__label">Free play</span>
+              <h3 class="pv-game__title">Royal Poker Vault</h3>
+              <span class="pv-game__cta">Play Free</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <p style="text-align:center;margin-top:2rem;font-size:0.88rem;color:var(--pv-muted)">Free to use. In-game credits are simulated for fun—not real money. March 2026.</p>
+    </div>
+  </main>
+
+  <footer class="pv-footer">
+    <div class="pv-shell">
+      <div class="pv-footer__grid">
+        <div>
+          <div class="pv-footer__brand">Playvanta</div>
+          <p style="margin:0;font-size:0.9rem;color:var(--pv-muted)">Free social casino · free to use · not real money.</p>
+        </div>
+        <div class="pv-footer__cols">
+          <div>
+            <h4>Site</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="faq.html">FAQ</a>
+          </div>
+          <div>
+            <h4>Legal</h4>
+            <a href="privacy-policy.html">Privacy Policy</a>
+            <a href="terms-of-use.html">Terms &amp; Conditions</a>
+            <a href="responsible-play.html">Responsible Play</a>
+          </div>
+        </div>
+      </div>
+      <p class="pv-footer__disclaimer">Free social casino—free to use; not real money. Entertainment only. No purchase required. Playvanta does not award prizes of real-world value.</p>
+    </div>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>

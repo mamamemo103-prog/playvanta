@@ -1,0 +1,10 @@
+# Static site — set publish directory to this folder in Netlify (or use publish = "." below)
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
